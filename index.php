@@ -12,9 +12,9 @@
 */
 
 // Parameters:
-$server = "server.tyzoid.com";
+$server = "smp.dreadcraft.net";
 $serverport  = "25565";
-$supress_nonessential = false;
+$supress_nonessential = true;
 
 // Check Dependencies
 $dependencies = array(
@@ -25,7 +25,7 @@ $dependencies = array(
 		"ImageCreateFromPNG" => array("type" => "function", "required" => true),
 	),
 	"Font: newscycle.ttf" => array(
-		"newsycle.ttf" => array("type" => "file", "required" => true),
+		"newsycle.ttf" => array("type" => "file", "required" => false),
 	),
 	"Image: online.png/offline.png" => array(
 		"online.png" => array("type" => "file", "required" => true),
